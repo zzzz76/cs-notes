@@ -51,7 +51,7 @@ public class Memory {
 
     public int getMemData(int address) {
         try {
-            System.out.println("IO操作");
+            System.out.println("访问主存");
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -61,7 +61,7 @@ public class Memory {
 
     public void setMemoryData(int address, int data) {
         try {
-            System.out.println("IO操作");
+            System.out.println("访问主存");
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -187,25 +187,25 @@ public class Main {
 测试结果
 
 ```
-IO操作
+访问主存
 0
-IO操作
+访问主存
 88
-IO操作
+访问主存
 0
-IO操作
+访问主存
 0
 0
 88
 0
 0
-IO操作
+访问主存
 0
-IO操作
+访问主存
 0
-IO操作
+访问主存
 15
-IO操作
+访问主存
 0
 ```
 
