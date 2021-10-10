@@ -1,6 +1,31 @@
 ## HTTP Header Sniffer
 
-### 1. Introduction / Reference
+### Content
+
+1. Assginment
+2. Report
+
+
+
+### Assignment
+
+* Write a code of simple HTTP header sniffer
+* Print the headers of Requests and Responses
+* Display Format
+
+```
+# No S_IP:S_Port D_IP:D_Port HTTP [Request | Response]
+[Request Line] (or [Status Line])
+[Header Lines]
+```
+
+![image-20211007113047110](image-20211007113047110.png)
+
+
+
+### Report
+
+#### 1. Introduction / Reference
 
 * Language: gcc 7.5.0
 
@@ -12,7 +37,7 @@
 
 
 
-### 2. Flow char or Diagram
+#### 2. Flow char or Diagram
 
 Before we introduce the flow of the sniffer program, let's review how packet capture works in Ethernet based networks. With one difference, When we use a sniffer, the network driver also sends a copy of any received or transmitted packet to a part of the kernel called packet filter.
 
@@ -20,13 +45,13 @@ Before we introduce the flow of the sniffer program, let's review how packet cap
 
 
 
-Then, we designed the program flow chart. 
+Then, we designed the flow chart for sniffer program
 
 ![image-20211008033916234](image-20211008033916234.png)
 
 
 
-### 3. Logical explanations block by block in detail
+#### 3. Logical explanations block by block in detail
 
 The most important part of the whole process is the use of libpcap, using the documentation given to develop our own Http header sniffer.
 
@@ -212,8 +237,8 @@ if (payload_size > 0) {
 
 
 
-### 4. Deliverables
+#### 4. Deliverables
 
-The project.c provide the actual code, and the setup.sh install dependencies and compile the project code, after we get the project application, we work the application with "run.sh > result.txt". When visit the acm.hust.edu.cn, we can get the result as follow: 
+The project.c provide the actual code, and the setup.sh install dependencies and compile the project code, after we get the project application, we work the application with "run.sh > result.txt". When visit the acm.hust.edu.cn by web chrome, we can get the result as follow: 
 
 ![image-20211008045455350](image-20211008045455350.png)
