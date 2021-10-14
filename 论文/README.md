@@ -15,6 +15,7 @@
 关键字：survey
 
 * Web服务核心支撑技术_周傲英
+* Web Service QoS Prediction via Collaborative Filtering: A Survey
 * 
 
 
@@ -67,5 +68,35 @@
 
 
 
+### 服务缓存
 
+关键字：cache, buffer, page, 动态，注册中心
+
+* A study of caching strategies for web service discovery
+* Data caching optimization in the edge computing environment
+* Caching at the Web Scale
+* A caching mechanism for semantic web service discovery
+* Toward rendering-latency reduction for composable web services via priority-based object caching
+
+
+
+Differential Caches for Web Services in Mobile Environments.
+
+An aspect-oriented approach to consistency-preserving caching and compression of web service response messages
+
+An Analysis of Public REST Web Service APIs
+
+High performance in-memory caching through flexible fine-grained services
+
+A machine learning approach for result caching in web search engines
+
+Disk-Offload Middleware for Web-Services Using the Application-Caching Paradigm
+
+An Aspect-Oriented Approach to Consistency-Preserving Caching and Compression of Web Service Response Messages.
+
+A Consistency-Preserving Mechanism for Web Services Response Caching**.**
+
+
+
+### 负载均衡
 
