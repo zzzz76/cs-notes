@@ -34,11 +34,14 @@
 
 
 
-
-
 ### 语义技术
 
 关键字：semantic Web
+
+| 篇名                                                         | 作者        | 时间    |
+| ------------------------------------------------------------ | ----------- | ------- |
+| A Web Service Clustering Method Based on Semantic Similarity and Multidimensional Scaling Analysis | chuang shan | 2021.12 |
+| 语义 Web 服务的研究综述                                      | 陆贝妮      | 2018.   |
 
 
 
@@ -46,10 +49,20 @@
 
 关键字：service discovery
 
+| 篇名                         | 作者   | 时间    |
+| ---------------------------- | ------ | ------- |
+| 基于社区发现的Web服务Qos预测 | 陆贝妮 | 2019.03 |
+
 * Outlier-Resilient Web Service QoS Prediction(www)
 * WiseTrans: Adaptive Transport Protocol Selection for Mobile Web Service
 
 
+
+### 虚拟服务
+
+| 篇名                                                       | 作者      | 时间    |
+| ---------------------------------------------------------- | --------- | ------- |
+| Formal Modeling and Implementation of Virtual Web Services | Yaoyao Li | 2019.10 |
 
 
 
@@ -99,4 +112,10 @@ A Consistency-Preserving Mechanism for Web Services Response Caching**.**
 
 
 ### 负载均衡
+
+
+
+论文方向
+
+相似度，服务聚合，Web虚拟化，Qos动态绑定
 
