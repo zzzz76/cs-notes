@@ -47,16 +47,24 @@
 
 ### 服务发现
 
-关键字：service discovery
+关键字：service discovery, service Qos prediction
 
-| 篇名                         | 作者   | 时间    |
-| ---------------------------- | ------ | ------- |
-| 基于社区发现的Web服务Qos预测 | 陆贝妮 | 2019.03 |
+| 篇名                                                         | 作者         | 时间    |
+| ------------------------------------------------------------ | ------------ | ------- |
+| 基于社区发现的Web服务Qos预测                                 | 陆贝妮       | 2019.03 |
+| Leveraging Data Augmentation for Service QoS Prediction in Cyber-physical Systems | Yuyu Yin     | 2021.06 |
+| Outlier Resilient Collaborative Web Service QoS Prediction   | Emine        | 2021.04 |
+| Outlier-Resilient Web Service QoS Prediction                 | Fanghua Ye   | 2021.04 |
+| Web Service QoS Prediction via Collaborative Filtering: A Survey | Zibin Zheng  | 2020.05 |
+| Web service QoS prediction: when collaborative filtering meets data fluctuating in big-range | Zhen Chen    | 2020.02 |
+| Covering-Based Web Service Quality Prediction via Neighborhood-Aware Matrix Factorization | Yiwen Zhang  | 2019.01 |
+| Differential private collaborative Web services QoS prediction | An Liu       | 2018.04 |
+| Online QoS Prediction for Runtime Service Adaptation via Adaptive Matrix Factorization | Jieming Zhu  | 2017.10 |
+| Robust web service recommendation via quantile matrix factorization | Rui Zhu      | 2017.05 |
+| Time-Aware Collaborative Filtering for QoS-Based Service Recommendation | Chengyuan Yu | 2014.07 |
+| Temporal QoS-aware web service recommendation via non-negative tensor factorization | Wancai Zhang | 2014.04 |
 
 * Outlier-Resilient Web Service QoS Prediction(www)
-* WiseTrans: Adaptive Transport Protocol Selection for Mobile Web Service
-
-
 
 ### 虚拟服务
 
