@@ -52,6 +52,7 @@
 | 篇名                                                         | 作者         | 时间    |
 | ------------------------------------------------------------ | ------------ | ------- |
 | 基于社区发现的Web服务Qos预测                                 | 陆贝妮       | 2019.03 |
+| 基于深度学习和矩阵分解的服务质量预测方法研究                 | 汪开斌       | 2019.03 |
 | Leveraging Data Augmentation for Service QoS Prediction in Cyber-physical Systems | Yuyu Yin     | 2021.06 |
 | Outlier Resilient Collaborative Web Service QoS Prediction   | Emine        | 2021.04 |
 | Outlier-Resilient Web Service QoS Prediction                 | Fanghua Ye   | 2021.04 |
