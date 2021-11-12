@@ -2,7 +2,7 @@
 
 
 
-#### Abstract
+### Abstract
 
 在软件产品的增量迭代过程中，产品的每一个版本都对应着一组新的需求。由于各种各样的现实问题，比如资金上的缺乏，时间上的缺乏，各种不同需求之间产生的相互依赖，导致所有的需求无法被同时满足。
 
@@ -14,13 +14,13 @@
 
 
 
-#### Introduction
+### Introduction
 
 文章的组织结构如下，在第二节进行了文献回顾并作动机分析，在第三节讨论并建模了软件需求的多目标优化问题，在第四节介绍了主从式并行处理的模型，提出了基于模型的改进算法，在第五节进行了实验评估，在第六节进行本研究的总结。
 
 
 
-#### Literature reivew
+### Literature reivew
 
 文章进行了文献调研后发现，近期解决next release problem的方法大多是以元启发式的优化算法形式，但是目前为止，元启发式算法均串行算法，还没有文章引入并行算发来解决NPR问题。
 
@@ -28,13 +28,13 @@ Chaves-González等人在Software requirement optimization using a multiobjectiv
 
 
 
-#### The problem of selecting the optimal subset of multi-objective requirements
+### The problem of selecting the optimal subset of multi-objective requirements
 
 在单目标问题中，通常可以得到一个唯一的解决方案。而在多目标问题中，无法通过分配权重进行目标合并，通常得到的解决方案并不唯一
 
 
 
-#### The Pareto front diagram
+### The Pareto front diagram
 
 在一组解决方案中，如果不存在任何一个方案严格的优于其他某个方案，则称这一组解决方案为非支配性解决方案，Parejo JA等人在Multi-objective test case prioritization in highly configurable systems: a case study 中对多目标问题中的非支配性解决方案进行描述，称其为pareto Front
 
@@ -48,7 +48,7 @@ Chaves-González等人在Software requirement optimization using a multiobjectiv
 
 
 
-#### Multi-objective NRP formulation
+### Multi-objective NRP formulation
 
 本节将需求工程问题转化为多目标NRP问题，并对其进行数学建模，这里的目标函数分别为开发成本和整体满意度，其解决方案的整体质量也是通过这两个目标函数评估的。下面将分别对两种数学模型的构建进行解释。
 
@@ -76,7 +76,7 @@ Chaves-González等人在Software requirement optimization using a multiobjectiv
 
 ![](../../pic/2021061004.png)
 
-#### The multi-objective ABC algorithm and its applications
+### The multi-objective ABC algorithm and its applications
 
 在解决多目标NRP问题时，人工蜂群算法比其他算法的质量更高，本节打算对人工蜂群算法和其在多目标NRP的应用进行描述，并在之后提出对此算法的优化方案。
 
@@ -123,7 +123,7 @@ Step4：若存在某个解决方案持续的未被更新，则对该解决方案
 
 此处单目标问题和多目标问题的处理区别在于，对优质蜜源的判断策略不同。单目标问题的处理策略希望能够得到唯一的全局最优解，而多目标问题的处理思路希望能够得到相对最优解的Pareto Front 集合
 
-#### The master–slave model
+### The master–slave model
 
 本节打算采用主从并行编程模型来改进 NRP 的解决方案，即引入并行多目标ABC算法，首先对主从模型进行描述。
 
@@ -141,7 +141,7 @@ Step4：若存在某个解决方案持续的未被更新，则对该解决方案
 
 
 
-#### The proposed method
+### The proposed method
 
 本文提出了一种在共享内存结构中使用主从模型的新方法。选择这个方法的目的是为了利用所有的CPU硬件能力，产生更多的非支配性解决方案，以及更加均匀的Pareto Front 集合。
 

@@ -1,4 +1,4 @@
-## C-Through: part-time optics in data centers
+# C-Through: part-time optics in data centers
 
 - 研究背景
 - 论文解决的主要问题是什么？你认为这个问题是否存在，其重要性如何？
@@ -10,13 +10,13 @@
 
 
 
-#### background
+### background
 
 In traditional data centers networks, many use the electrical packet-switch technology, and it worked with the old tree-structure of ethernet. Of course it bring the problem that all the tree-structure will have, that is the traffic will concerntrate  from the leave nodes to the root nodes, the nodes and the link of root maybe overload with the increase data center network bandwith.
 
 
 
-#### motivation
+### motivation
 
 Currently there two solution to solve the problem above. the Fat-tree and Bcube, they use more links and more switches to build a full bisection bandwidth, provided all-to-all communication in the electrical packet-switch data centers. 
 
@@ -24,7 +24,7 @@ But with the complex structure, both of the solutions are hard to construct and 
 
 
 
-#### Main work
+### Main work
 
 The main work of the article is to explore how optical circuit switching technology could benefit a data center network. That is to find a new hybrid architecture to combind the advantages of the electrical packet-switch and the advantages of the optical switch, while their shortcomings could be overcome.
 
@@ -34,7 +34,7 @@ To achieve that, the paper provide a specific design called C-Through which can 
 
 
 
-#### Evaluation
+### Evaluation
 
 Finally, the paper get the evaluation on a set of performance about system and application as follow:
 
@@ -52,7 +52,7 @@ Finally, the paper get the evaluation on a set of performance about system and a
 
 
 
-#### Future directions
+### Future directions
 
 * The scaling property of hybrid data center networks
 
