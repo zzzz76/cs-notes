@@ -1,13 +1,13 @@
-## HTTP Header Sniffer
+# HTTP Header Sniffer
 
-### Content
+## Content
 
 1. Assginment
 2. Report
 
 
 
-### Assignment
+## Assignment
 
 * Write a code of simple HTTP header sniffer
 * Print the headers of Requests and Responses
@@ -23,9 +23,9 @@
 
 
 
-### Report
+## Report
 
-#### 1. Introduction / Reference
+### 1. Introduction / Reference
 
 * Language: gcc 7.5.0
 
@@ -37,7 +37,7 @@
 
 
 
-#### 2. Flow char or Diagram
+### 2. Flow char or Diagram
 
 Before we introduce the flow of the sniffer program, let's review how packet capture works in Ethernet based networks. With one difference, When we use a sniffer, the network driver also sends a copy of any received or transmitted packet to a part of the kernel called packet filter.
 
@@ -51,7 +51,7 @@ Then, we designed the flow chart for sniffer program
 
 
 
-#### 3. Logical explanations block by block in detail
+### 3. Logical explanations block by block in detail
 
 The most important part of the whole process is the use of libpcap, using the documentation given to develop our own Http header sniffer.
 
@@ -237,7 +237,7 @@ if (payload_size > 0) {
 
 
 
-#### 4. Deliverables
+### 4. Deliverables
 
 The project.c provide the actual code, and the setup.sh install dependencies and compile the project code, after we get the project application, we work the application with "run.sh > result.txt". When visit the acm.hust.edu.cn by web chrome, we can get the result as follow: 
 

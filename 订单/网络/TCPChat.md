@@ -1,8 +1,8 @@
-## Simple Multi-user TCP Chat
+# Simple Multi-user TCP Chat
 
 
 
-### Introduction
+## Introduction
 
 OS：Ubuntu 16.04
 
@@ -16,7 +16,7 @@ Reference:
 
 
 
-### Flow chart
+## Flow chart
 
 The chatroom server does two main things:
 
@@ -38,7 +38,7 @@ The flow chart of the above process is shown below：
 
 
 
-### Snapshots
+## Snapshots
 
 First we start chat server and bind the server socket to 127.0.01:8888, then we start chat client and connect the client1 socket to the defined host and port, The server will accept the new connection and broadcast the message to all of the socket except for itself
 
@@ -96,9 +96,9 @@ The client2：
 
 ![cli2_pic](cli2_pic.png)
 
-### Logical explanations
+## Logical explanations
 
-#### a) The Server logical
+### a) The Server logical
 
 The chatroom server does two main things:
 
@@ -232,7 +232,7 @@ data = sock.recv(1024).decode()
 
 
 
-#### b) The Client logical
+### b) The Client logical
 
 The chatroom client does two main things:
 
@@ -300,7 +300,7 @@ if __name__ == "__main__":
 
 
 
-### Explanations of functions
+## Explanations of functions
 
 ```python
 # Create and return a new socket object
