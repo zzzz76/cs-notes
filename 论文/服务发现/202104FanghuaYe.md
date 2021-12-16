@@ -26,9 +26,15 @@ keywords: Web service, Qos prediction, outlier resilience, Cauchy loss
 
 
 
+Can we achieve robust Qos prediction without detecting outliers explicitly
+
+我们能否在不显式检测离群值的情况下实现鲁棒的Qos预测
+
 ## 评价
 
+以后的所有L1-norm和L2-norm相关的论文均可以用这种方法增强鲁棒性
 
+看一下别人是如何引用的
 
 ## 相关知识
 

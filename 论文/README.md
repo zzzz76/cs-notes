@@ -54,6 +54,7 @@
 | 基于社区发现的Web服务Qos预测                                 | 陆贝妮       | 2019.03 |      |
 | 基于深度学习和矩阵分解的服务质量预测方法研究                 | 汪开斌       | 2019.03 |      |
 | 基于覆盖随机游走算法的服务质量预测                           | 张以文       | 2018.12 | A    |
+| 基于因子分解机的质量感知Web服务推荐方法                      |              | 2018.06 | A    |
 | Location-Based Web Service QoS Prediction via Preference Propagation to Address Cold Start Problem | Duksan Ryu   | 2021.06 |      |
 | Leveraging Data Augmentation for Service QoS Prediction in Cyber-physical Systems | Yuyu Yin     | 2021.06 |      |
 | Outlier Resilient Collaborative Web Service QoS Prediction   | Emine        | 2021.04 |      |
