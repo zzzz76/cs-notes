@@ -210,6 +210,64 @@ Set<Integer> set = Arrays.stream(arr)
 
 
 
+#### 5. match
+
+判断流中的元素是否都符合匹配条件
+
+```java
+Integer[] arr = new Integer[]{1, 3, 2, 2};
+boolean flag = Arrays.stream(arr).allMatch(e -> e >= 1);
+```
+
+
+
+判断是否都不符合匹配条件
+
+```java
+Integer[] arr = new Integer[]{1, 3, 2, 2};
+boolean flag = Arrays.stream(arr).noneMatch(e -> e < 1);
+```
+
+
+
+判断流中是否存在元素符合条件
+
+```java
+Integer[] arr = new Integer[]{1, 3, 2, 2};
+boolean flag = Arrays.stream(arr).anyMatch(e -> e == 1);
+```
+
+
+
+#### 6. find
+
+获取流中的任意一个元素
+
+```java
+Integer[] arr = new Integer[]{1, 3, 2, 2};
+Optional<Integer> optional = Arrays.stream(arr).findAny();
+```
+
+
+
+获取流中的第一个元素
+
+```java
+Integer[] arr = new Integer[]{1, 3, 2, 2};
+Optional<Integer> optional = Arrays.stream(arr).findFirst();
+```
+
+
+
+#### 7. reduce
+
+对流中的所有元素进行聚合
+
+```java
+```
+
+
+
 ## 四、注意事项
 
 1. 如果没有终结操作，中间操作是不会执行的
